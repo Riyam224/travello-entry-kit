@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travello/core/assets.dart';
-import 'package:travello/presentation/slides/widgets/page_view_item.dart';
+import 'package:travello/features/slides/presentation/widgets/page_view_item.dart';
 
 class SlidePageView extends StatelessWidget {
   const SlidePageView({super.key, required this.pageController});

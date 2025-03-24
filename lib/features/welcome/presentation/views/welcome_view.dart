@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../core/app_colors.dart' show AppColors;
-import '../../core/assets.dart';
+import '../../../../core/app_colors.dart' show AppColors;
+import '../../../../core/assets.dart';
 
 class WelcomeView extends StatefulWidget {
   const WelcomeView({super.key});

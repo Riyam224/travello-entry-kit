@@ -1,7 +1,7 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:travello/presentation/auth/views/sign_in_view.dart';
-import 'package:travello/presentation/slides/widgets/custom_circle_button.dart';
+import 'package:travello/features/auth/presentation/views/sign_in_view.dart';
+import 'package:travello/features/slides/presentation/widgets/custom_circle_button.dart';
 
 class IndicatorAndBtn extends StatelessWidget {
   const IndicatorAndBtn({

@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-import '../../../core/app_colors.dart';
+import '../../../../core/app_colors.dart';
 import '../widgets/auth_header.dart';
 import '../widgets/custom_auth_btn.dart';
 import '../widgets/custom_text_field.dart';

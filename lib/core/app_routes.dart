@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' show Scaffold;
-import 'package:travello/presentation/auth/views/sign_in_view.dart';
-import 'package:travello/presentation/home/home_view.dart';
-import 'package:travello/presentation/slides/views/slides_view.dart';
+import 'package:travello/features/auth/presentation/views/sign_in_view.dart';
+import 'package:travello/features/home/presentation/views/home_view.dart';
+import 'package:travello/features/slides/presentation/views/slides_view.dart';
 
-import '../presentation/auth/views/sign_up_view.dart';
-import '../presentation/auth/views/verification_view.dart';
-import '../presentation/welcome/welcome_view.dart';
+import '../features/auth/presentation/views/sign_up_view.dart';
+import '../features/auth/presentation/views/verification_view.dart';
+import '../features/welcome/presentation/views/welcome_view.dart';
 
 Route onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {

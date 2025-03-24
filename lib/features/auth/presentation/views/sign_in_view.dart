@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:travello/presentation/auth/widgets/custom_auth_btn.dart';
-import 'package:travello/presentation/auth/widgets/custom_text_field.dart';
+import 'package:travello/features/auth/presentation/widgets/custom_auth_btn.dart';
+import 'package:travello/features/auth/presentation/widgets/custom_text_field.dart';
 import 'package:travello/core/app_colors.dart';
 import '../widgets/auth_header.dart';
 

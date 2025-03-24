@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travello/core/app_routes.dart';
-import 'package:travello/presentation/welcome/welcome_view.dart';
+import 'package:travello/features/welcome/presentation/views/welcome_view.dart';
 
 void main() {
   runApp(const Travello());
