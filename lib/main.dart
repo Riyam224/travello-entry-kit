@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:travello/core/app_routes.dart';
 import 'package:travello/features/welcome/presentation/views/welcome_view.dart';
+import 'package:travello/services/shared_prefs.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Prefs.init();
   runApp(const Travello());
 }
 

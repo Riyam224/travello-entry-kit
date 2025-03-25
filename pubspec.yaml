@@ -33,6 +33,7 @@ dependencies:
   flutter:
     sdk: flutter
   smooth_page_indicator: ^1.2.1
+  shared_preferences:
 
 dev_dependencies:
   flutter_lints: ^5.0.0

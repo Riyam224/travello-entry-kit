@@ -1,0 +1,1 @@
+const kIsSlidesSeen = 'isSlidesSeen';
