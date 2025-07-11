@@ -32,5 +32,24 @@ class AuthRepoImp extends AuthRepo {
       log('createUserWithEmailandPassword error: $e');
       return left(ServerFailure('Failed to create user.'));
     }
-}
+  }
+
+  @override
+  Future<Either<Failure, UserEntity>> signInWithEmailandPassword(
+    String email,
+    String password,
+  ) async {
+    try {
+      final user = await firebaseAuthService.signInWithEmailandPassword(
+        email: email,
+        password: password,
+      );
+      return right(UserModel.fromFirebaseUser(user));
+    } on CustomException catch (e) {
+      return left(ServerFailure(e.message));
+    } catch (e) {
+      log('signInWithEmailandPassword error: $e');
+      return left(ServerFailure('Failed to sign in user.'));
+    }
+  }
 }

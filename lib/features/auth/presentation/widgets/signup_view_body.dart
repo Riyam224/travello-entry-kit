@@ -185,7 +185,7 @@ class _SignupViewBodyState extends State<SignupViewBody> {
                               name: name!,
                               phone: phone!,
                             );
-                        Navigator.pushNamed(context, 'verification');
+                        Navigator.pushNamed(context, 'home');
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(
