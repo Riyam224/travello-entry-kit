@@ -1,0 +1,12 @@
+import 'package:dartz/dartz.dart';
+import 'package:travello/core/errors/failure.dart';
+import 'package:travello/features/auth/domain/entity/user_entity.dart';
+
+abstract class AuthRepo {
+  Future<Either<Failure, UserEntity>> createUserWithEmailandPassword(
+    String name,
+    String email,
+    String phone,
+    String password,
+  );
+}
