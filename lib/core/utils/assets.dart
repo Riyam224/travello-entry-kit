@@ -1,32 +1,31 @@
-// ignore_for_file: prefer_single_quotes
 class Assets {
   Assets._();
+  
+  /// Assets for auth
+  /// auth
+  static const String auth = "assets/images/auth.png";
 
-  /// Assets for imagesAuth
-  /// assets/images/auth.png
-  static const String imagesAuth = "assets/images/auth.png";
+  /// Assets for logo
+  /// logo
+  static const String logo = "assets/images/logo.png";
 
-  /// Assets for imagesLogo
-  /// assets/images/logo.png
-  static const String imagesLogo = "assets/images/logo.png";
+  /// Assets for slide1
+  /// slide1
+  static const String slide1 = "assets/images/slide1.png";
 
-  /// Assets for imagesSlide1
-  /// assets/images/slide1.png
-  static const String imagesSlide1 = "assets/images/slide1.png";
+  /// Assets for slide2
+  /// slide2
+  static const String slide2 = "assets/images/slide2.png";
 
-  /// Assets for imagesSlide2
-  /// assets/images/slide2.png
-  static const String imagesSlide2 = "assets/images/slide2.png";
+  /// Assets for slide3
+  /// slide3
+  static const String slide3 = "assets/images/slide3.png";
 
-  /// Assets for imagesSlide3
-  /// assets/images/slide3.png
-  static const String imagesSlide3 = "assets/images/slide3.png";
+  /// Assets for travello
+  /// travello
+  static const String travello = "assets/images/travello.png";
 
-  /// Assets for imagesTravello
-  /// assets/images/travello.png
-  static const String imagesTravello = "assets/images/travello.png";
-
-  /// Assets for imagesWelcomeToHome
-  /// assets/images/welcome_to_home.png
-  static const String imagesWelcomeToHome = "assets/images/welcome_to_home.png";
+  /// Assets for welcomeToHome
+  /// welcome_to_home
+  static const String welcomeToHome = "assets/images/welcome_to_home.png";
 }

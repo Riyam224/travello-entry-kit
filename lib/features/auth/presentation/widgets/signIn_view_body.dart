@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, unnecessary_import
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -107,7 +109,7 @@ class _SignInViewBodyState extends State<SignInViewBody> {
                           email: email!,
                           password: password!,
                         );
-                        Navigator.pushNamed(context, 'home');
+                        // Navigator.pushNamed(context, 'home');
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(

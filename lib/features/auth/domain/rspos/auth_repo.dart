@@ -14,4 +14,9 @@ abstract class AuthRepo {
     String email,
     String password,
   );
+  // todo firestore
+
+  Future<void> addUserdData({required UserEntity user});
+  Future<void> deleteUserData({required String uId});
+  Future<UserEntity> getUserData({required String uId});
 }

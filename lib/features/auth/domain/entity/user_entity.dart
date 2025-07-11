@@ -14,6 +14,16 @@ class UserEntity extends Equatable {
     required this.phoneNumber,
     required this.uId,
   });
+  // todo
+  toMap() {
+    return {
+      'name': name,
+      'email': email,
+      'password': password,
+      'phoneNumber': phoneNumber,
+      'uId': uId,
+    };
+  }
 
   @override
   List<Object?> get props => [name, email, password, phoneNumber, uId];
