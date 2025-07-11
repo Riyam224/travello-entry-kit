@@ -27,13 +27,13 @@ class SignInView extends StatelessWidget {
                 const SizedBox(height: 20),
                 CustomTextField(
                   hintText: 'Enter your email',
-                  icon: Icons.email,
+                  suffixIcon: Icon(Icons.email),
                 ),
 
                 const SizedBox(height: 30),
                 CustomTextField(
                   hintText: 'Enter your password',
-                  icon: Icons.lock,
+                  suffixIcon: Icon(Icons.lock),
                 ),
 
                 const SizedBox(height: 17),
@@ -46,7 +46,7 @@ class SignInView extends StatelessWidget {
                         const Text(
                           'Remember me',
                           style: TextStyle(
-                            color:  Color(0xFF252525),
+                            color: Color(0xFF252525),
                             fontSize: 12,
                             fontFamily: 'Mulish',
                             fontWeight: FontWeight.w400,

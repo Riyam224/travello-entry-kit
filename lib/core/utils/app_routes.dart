@@ -27,6 +27,7 @@ Route onGenerateRoute(RouteSettings settings) {
 
     case 'verification':
       return CupertinoPageRoute(builder: (_) => const VerificationView());
+
     default:
       return CupertinoPageRoute(builder: (_) => const Scaffold());
   }

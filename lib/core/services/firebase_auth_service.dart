@@ -18,6 +18,8 @@ class FirebaseAuthService {
         throw CustomException(
           message: 'The account already exists for that email.',
         );
+      } else if (e.code == 'network-request-failed') {
+        throw CustomException(message: 'No internet connection.');
       }
     } catch (e) {
       throw CustomException(message: e.toString());

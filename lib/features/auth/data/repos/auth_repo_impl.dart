@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:dartz/dartz.dart';
 import 'package:travello/core/errors/exceptions.dart';
 import 'package:travello/core/errors/failure.dart';
@@ -27,7 +29,8 @@ class AuthRepoImp extends AuthRepo {
     } on CustomException catch (e) {
       return left(ServerFailure(e.message));
     } catch (e) {
-      return left(ServerFailure(e.toString()));
+      log('createUserWithEmailandPassword error: $e');
+      return left(ServerFailure('Failed to create user.'));
     }
-  }
+}
 }
