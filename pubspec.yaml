@@ -36,6 +36,7 @@ dependencies:
   firebase_core: ^3.15.1
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.1
   smooth_page_indicator: ^1.2.1
 
 dev_dependencies:
@@ -80,6 +81,6 @@ flutter:
   # see https://flutter.dev/to/font-from-package
 flutter_assets:
   assets_path: assets/images/
-  output_path: lib/core/
+  output_path: lib/core/utils/
   filename: assets.dart
   field_prefix: null

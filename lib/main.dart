@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travello/core/app_routes.dart';
+import 'package:travello/core/utils/app_routes.dart';
 import 'package:travello/features/welcome/presentation/views/welcome_view.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';

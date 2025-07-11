@@ -1,7 +1,7 @@
 // ignore_for_file: sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
-import 'package:travello/core/assets.dart';
+import 'package:travello/core/utils/assets.dart';
 
 class AuthHeader extends StatelessWidget {
   const AuthHeader({super.key, required this.title, required this.subtitle});

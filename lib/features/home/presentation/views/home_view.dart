@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travello/core/assets.dart';
+import 'package:travello/core/utils/assets.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

@@ -4,9 +4,9 @@ import 'package:travello/features/auth/presentation/views/sign_in_view.dart';
 import 'package:travello/features/home/presentation/views/home_view.dart';
 import 'package:travello/features/slides/presentation/views/slides_view.dart';
 
-import '../features/auth/presentation/views/sign_up_view.dart';
-import '../features/auth/presentation/views/verification_view.dart';
-import '../features/welcome/presentation/views/welcome_view.dart';
+import '../../features/auth/presentation/views/sign_up_view.dart';
+import '../../features/auth/presentation/views/verification_view.dart';
+import '../../features/welcome/presentation/views/welcome_view.dart';
 
 Route onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {

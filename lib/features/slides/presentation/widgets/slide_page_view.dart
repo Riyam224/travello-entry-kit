@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travello/core/assets.dart';
+import 'package:travello/core/utils/assets.dart';
 import 'package:travello/features/slides/presentation/widgets/page_view_item.dart';
 
 class SlidePageView extends StatelessWidget {

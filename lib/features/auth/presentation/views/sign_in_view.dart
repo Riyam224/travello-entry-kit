@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travello/features/auth/presentation/widgets/custom_auth_btn.dart';
 import 'package:travello/features/auth/presentation/widgets/custom_text_field.dart';
-import 'package:travello/core/app_colors.dart';
+import 'package:travello/core/utils/app_colors.dart';
 import '../widgets/auth_header.dart';
 
 class SignInView extends StatelessWidget {
