@@ -46,7 +46,7 @@ class SignInView extends StatelessWidget {
                         const Text(
                           'Remember me',
                           style: TextStyle(
-                            color: const Color(0xFF252525),
+                            color:  Color(0xFF252525),
                             fontSize: 12,
                             fontFamily: 'Mulish',
                             fontWeight: FontWeight.w400,

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers, deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:travello/features/auth/presentation/widgets/custom_auth_btn.dart';
 import 'package:travello/core/app_colors.dart';

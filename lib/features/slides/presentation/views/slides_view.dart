@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors_in_immutables
+
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:travello/core/app_colors.dart';
@@ -27,6 +29,8 @@ class _SlidesViewState extends State<SlidesView> {
     });
     super.initState();
   }
+
+  
 
   @override
   void dispose() {

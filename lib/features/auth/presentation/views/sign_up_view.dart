@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +18,7 @@ class SignUpView extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 28),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
           child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -26,7 +28,7 @@ class SignUpView extends StatelessWidget {
                   title: 'Get Started',
                   subtitle: 'by creating a free account.',
                 ),
-                const SizedBox(height: 20),
+                // const SizedBox(height: 20),
                 CustomTextField(hintText: 'Full name', icon: Icons.person),
 
                 const SizedBox(height: 30),
@@ -136,7 +138,7 @@ class SignUpView extends StatelessWidget {
                     const SizedBox(width: 5),
                     GestureDetector(
                       onTap: () {
-                        Navigator.pushNamed(context, 'sign-up');
+                        Navigator.pushNamed(context, 'sign-in');
                       },
                       child: Text(
                         'Sign In ',

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486803197021",
+    "project_id": "travello-auth-40b33",
+    "storage_bucket": "travello-auth-40b33.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486803197021:android:2233fb11d91339da2111b4",
+        "android_client_info": {
+          "package_name": "com.example.travello"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu-Cyh4rX9YPNtxSPhbp2YEugtcqYaMIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
